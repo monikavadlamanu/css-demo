@@ -5,3 +5,5 @@ workflows:
     "Hello Workflow":
         jobs:
           - hello/hello-build
+        steps:
+          - run: echo "Hello World"
